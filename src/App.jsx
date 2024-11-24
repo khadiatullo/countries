@@ -17,7 +17,7 @@ function App() {
             <HomePage />
           } />
           <Route path="/country/:name" element={<Details />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/countries" element={<NotFound />} />
         </Routes>
       </Main>
     </>
